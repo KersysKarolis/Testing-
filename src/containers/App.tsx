@@ -1,5 +1,6 @@
 import React from 'react';
 import Login from "./Login";
+import Task2 from "../task/Task2";
 
 
 
@@ -9,7 +10,8 @@ function App() {
     <div>
       Uzd 1
         <br/>
-        <Login value={'admin'}/>
+        <Login value={'admin'} item1={199} item2={249}/>
+        <Task2/>
     </div>
 
   );
